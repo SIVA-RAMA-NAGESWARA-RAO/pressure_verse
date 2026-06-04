@@ -1,3 +1,4 @@
+import React from 'react';
 import { useMemo, useState } from 'react';
 import GlassCard from './GlassCard.jsx';
 import PressureGauge from './PressureGauge.jsx';
@@ -54,3 +55,4 @@ export default function WaterBottle() {
     </GlassCard>
   );
 }
+

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import GlassCard from './GlassCard.jsx';
 import PressureGauge from './PressureGauge.jsx';
@@ -58,3 +59,4 @@ export default function HydraulicLift() {
     </GlassCard>
   );
 }
+

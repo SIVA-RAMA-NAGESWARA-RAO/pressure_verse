@@ -1,3 +1,4 @@
+import React from 'react';
 import { clamp, formatNumber } from '../utils/physics.js';
 
 export default function PressureGauge({ value = 0, max = 100, label = 'Pressure', unit = 'kPa' }) {
@@ -20,3 +21,4 @@ export default function PressureGauge({ value = 0, max = 100, label = 'Pressure'
     </div>
   );
 }
+

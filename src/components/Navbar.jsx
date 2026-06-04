@@ -1,3 +1,4 @@
+import React from 'react';
 const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'Story Board', href: '#storyboard' },
@@ -23,3 +24,4 @@ export default function Navbar() {
     </nav>
   );
 }
+

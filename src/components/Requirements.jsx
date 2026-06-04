@@ -1,3 +1,4 @@
+import React from 'react';
 const requirements = [
   {
     icon: '🧪',
@@ -63,3 +64,4 @@ export default function Requirements() {
     </section>
   );
 }
+

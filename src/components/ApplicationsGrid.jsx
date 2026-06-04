@@ -1,3 +1,4 @@
+import React from 'react';
 import { applications } from '../data/applications.js';
 
 export default function ApplicationsGrid() {
@@ -20,3 +21,4 @@ export default function ApplicationsGrid() {
     </section>
   );
 }
+

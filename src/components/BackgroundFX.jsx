@@ -1,3 +1,4 @@
+import React from 'react';
 export default function BackgroundFX() {
   const particles = Array.from({ length: 42 }, (_, index) => ({
     id: index,
@@ -33,3 +34,4 @@ export default function BackgroundFX() {
     </div>
   );
 }
+

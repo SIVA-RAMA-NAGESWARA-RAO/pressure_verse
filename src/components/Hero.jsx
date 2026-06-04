@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Hero() {
   return (
     <header id="home" className="hero section-shell">
@@ -39,3 +40,4 @@ export default function Hero() {
     </header>
   );
 }
+

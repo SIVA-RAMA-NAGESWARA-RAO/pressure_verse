@@ -1,3 +1,4 @@
+import React from 'react';
 import storyboardImage from '../assets/storyboard-pressure-applications.png';
 
 const storyboardUrl = 'https://excalidraw.com/#room=c0405172e531a802c8ff,zBpnHyTmjO4lnR2YlA3qfg';
@@ -29,3 +30,4 @@ export default function Storyboard() {
     </section>
   );
 }
+

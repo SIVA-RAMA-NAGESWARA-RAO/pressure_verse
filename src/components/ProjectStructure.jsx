@@ -1,3 +1,4 @@
+import React from 'react';
 const folders = [
   { path: 'src/pages', desc: 'Main page-level screens such as Home.jsx' },
   { path: 'src/components', desc: 'Reusable UI blocks, simulations, navbar, storyboard, footer' },
@@ -41,3 +42,4 @@ export default function ProjectStructure() {
     </section>
   );
 }
+

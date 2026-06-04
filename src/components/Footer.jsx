@@ -1,3 +1,4 @@
+import React from 'react';
 export default function Footer() {
   return (
     <footer className="footer section-shell">
@@ -9,3 +10,4 @@ export default function Footer() {
     </footer>
   );
 }
+
