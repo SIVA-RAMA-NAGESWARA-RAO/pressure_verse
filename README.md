@@ -1,220 +1,273 @@
-# PressureVerse
+# PressureVerse – Interactive Learning Platform for Pressure and Its Applications
 
-## Title
-**PressureVerse — Pressure and Its Applications in Real Life**
+### Developed by **Team Beyond Pressure (SO7)**
 
-## Description
-PressureVerse is a premium interactive educational website that explains the concept of **Pressure** using a modern glassmorphism user interface, animated backgrounds, live simulations, and a clickable storyboard. The website is fully frontend-based and does not require any backend, login, or database.
+---
 
-The project includes interactive demonstrations for:
+# Team Information
 
-- Hydraulic car lift
-- Water pressure bottle experiment
-- Pneumatic piston system
-- Sharp knife vs blunt knife pressure comparison
-- High heels vs sports shoes pressure comparison
-- Pressure formula lab: `P = F / A`
-- Storyboard page section connected to Excalidraw
-- Vercel deployment setup
+| Team Name           | Team Code |
+| ------------------- | --------- |
+| **Beyond Pressure** | **SO7**   |
 
-## Live Storyboard Link
-The storyboard image is added inside the **Story Board** section on the home page. Clicking the storyboard opens this Excalidraw board:
+### Team Vision
 
-```txt
+**"Learning Physics Beyond Theory Through Interactive Experiences."**
+
+---
+
+## Project Overview
+
+**PressureVerse** is an interactive educational platform designed to simplify the concept of **Pressure** and its real-world applications through engaging simulations, visual demonstrations, and modern web experiences.
+
+The project combines physics education with interactive technology to make learning intuitive, practical, and enjoyable for students.
+
+---
+
+## Live Project
+
+### Website
+
+https://pressure-verse.vercel.app
+
+### GitHub Repository
+
+https://github.com/SIVA-RAMA-NAGESWARA-RAO/pressure_verse
+
+---
+
+# Features
+
+## Educational Modules
+
+* Introduction to Pressure
+* Pressure Formula Visualization
+* Real-World Applications of Pressure
+* Interactive Learning Sections
+
+## Interactive Simulations
+
+* Hydraulic Car Lift Simulation
+* Water Pressure Bottle Experiment
+* Pneumatic Piston Demonstration
+* Knife Pressure Comparison
+* High Heels vs Sports Shoes Pressure Comparison
+
+## User Experience Features
+
+* Glassmorphism UI Design
+* Animated Physics-Themed Background
+* Smooth Scrolling Navigation
+* Responsive Layout
+* Modern Educational Interface
+* Storyboard Integration
+
+---
+
+# Storyboard
+
+The complete educational flow and simulation planning were designed before development using Excalidraw.
+
+### Storyboard Link
+
 https://excalidraw.com/#room=c0405172e531a802c8ff,zBpnHyTmjO4lnR2YlA3qfg
+
+---
+
+# Technology Stack
+
+## Frontend
+
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+## Development Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+
+## Deployment
+
+* Vercel
+
+---
+
+# Project Structure
+
+```plaintext
+src/
+│
+├── pages/
+│   └── Home.jsx
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Storyboard.jsx
+│   ├── HydraulicLift.jsx
+│   ├── WaterBottle.jsx
+│   ├── PneumaticPiston.jsx
+│   ├── KnifePressure.jsx
+│   ├── FootwearPressure.jsx
+│   ├── Requirements.jsx
+│   ├── ProjectStructure.jsx
+│   ├── PressureGauge.jsx
+│   ├── GlassCard.jsx
+│   └── Footer.jsx
+│
+├── assets/
+├── data/
+├── utils/
+│
+├── App.jsx
+├── main.jsx
+└── styles.css
 ```
 
-## Workflow
+---
 
-1. **Problem Understanding**  
-   Selected the topic **Pressure and Its Applications in Real Life** and identified real-life examples such as water pressure, hydraulics, pneumatics, cutting tools, and footwear pressure.
+# Team Members & Responsibilities
 
-2. **Wireframe and Storyboard**  
-   Created a visual storyboard to explain pressure in a simple way using scenes such as mystery, formula explanation, applications, hydraulics, fluid pressure, and challenge/problem-solving.
+| Team Member                          | ID             | Role                                                            |
+| ------------------------------------ | -------------- | --------------------------------------------------------------- |
+| **Manasadevi**                       | **24NP1A05B4** | **Project Administrator, Team Lead Tracker & Progress Manager** |
+| **Akurathi Siva Rama Nageswara Rao** | **2400031115** | **Lead Vibe Coding, Frontend Development & Deployment**         |
+| **Amrutha Badri**                    | **2400080142** | Vibe Coding Support, UI Components & Documentation              |
+| **Vasantha Eedu**                    | **23KC1A0529** | Vibe Coding Support, Testing & UI Review                        |
+| **Shaik Tanveer Basha**              | **2400030274** | Storyboard Design & Educational Flow                            |
+| **Ramesh Kumar Kandula**             | **2400031595** | Storyboard Planning & Content Structure                         |
+| **Ashish Dohare**                    | **2400032517** | GitHub Issues & Project Tracking                                |
+| **Vignathri Kannikanti**             | **2400032479** | GitHub Commits & Version Control Management                     |
 
-3. **Vibe Coding Website Development**  
-   Built the website using React + Vite with a clean component-based structure. The UI uses glassmorphism, animated gradients, glowing effects, smooth transitions, and responsive layout.
+---
 
-4. **Interactive Simulations**  
-   Developed working simulations using React state and CSS animations. Users can move sliders, press buttons, and visually understand how pressure changes.
+# Team Contributions
 
-5. **Testing and Responsiveness**  
-   Checked the project for desktop, tablet, and mobile responsiveness. The website is frontend-only and works without server-side setup.
+## Project Administration & Management
 
-6. **Git Repository and Deployment**  
-   Project is ready to push into one GitHub repository and deploy automatically using Vercel.
+### Manasadevi
 
-## Team Members and Task Distribution
+* Team Coordination
+* Progress Tracking
+* Task Monitoring
+* Deliverable Verification
+* Documentation Review
+* Submission Management
 
-| Team Member | Role | Task Performed |
-|---|---|---|
-| A. Siva Rama Nageswara Rao | Project Lead / Frontend Developer | Planned website structure, created React components, integrated simulations, and prepared deployment setup |
-| Team Member 2 | Storyboard Designer | Prepared storyboard scenes and visual flow for explaining pressure |
-| Team Member 3 | Content Researcher | Collected real-life applications of pressure and educational explanations |
-| Team Member 4 | Testing and Documentation | Tested responsiveness, checked UI flow, and helped with README/documentation |
+## Vibe Coding & Development Team
 
-> Replace Team Member 2, 3, and 4 names with your actual teammates before final submission.
+* Akurathi Siva Rama Nageswara Rao
+* Amrutha Badri
+* Vasantha Eedu
 
-## Project Structure
+## Storyboard Team
 
-```txt
-PressureVerse/
-├── src/
-│   ├── pages/
-│   │   └── Home.jsx
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Storyboard.jsx
-│   │   ├── PressureFormulaLab.jsx
-│   │   ├── HydraulicLift.jsx
-│   │   ├── WaterBottle.jsx
-│   │   ├── PneumaticPiston.jsx
-│   │   ├── KnifePressure.jsx
-│   │   ├── FootwearPressure.jsx
-│   │   ├── ApplicationsGrid.jsx
-│   │   ├── Requirements.jsx
-│   │   ├── ProjectStructure.jsx
-│   │   └── Footer.jsx
-│   ├── assets/
-│   │   └── storyboard-pressure-applications.png
-│   ├── data/
-│   │   └── applications.js
-│   ├── utils/
-│   │   └── physics.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── styles.css
-├── .github/
-│   └── workflows/
-│       └── vercel-deploy.yml
-├── vercel.json
-├── package.json
-├── deploy-vercel.bat
-├── deploy-vercel.sh
-├── DEPLOY_TO_VERCEL.md
-└── README.md
+* Shaik Tanveer Basha
+* Ramesh Kumar Kandula
+
+## GitHub Issues & Project Tracking
+
+* Ashish Dohare
+
+## GitHub Repository & Version Control
+
+* Vignathri Kannikanti
+
+---
+
+# GitHub Issues Covered
+
+* Storyboard Design
+* Homepage Development
+* Interactive Simulations
+* UI/UX Enhancements
+* Responsive Design Testing
+* Documentation Preparation
+* Vercel Deployment
+* Final Testing & Validation
+
+---
+
+# Development Workflow
+
+```text
+Requirement Analysis
+        ↓
+Storyboard Creation
+        ↓
+GitHub Issue Creation
+        ↓
+UI/UX Planning
+        ↓
+Vibe Coding Development
+        ↓
+Interactive Simulation Integration
+        ↓
+Testing & Validation
+        ↓
+Documentation
+        ↓
+GitHub Repository Updates
+        ↓
+Vercel Deployment
+        ↓
+Final Submission
 ```
 
-## Requirements Satisfied
+---
 
-- `/src/pages` folder included
-- `/src/components` folder included
-- Storyboard section added to home page
-- Storyboard image added to project assets
-- Storyboard image redirects to Excalidraw link when clicked
-- No backend required
-- No login required
-- No database required
-- Interactive simulations included
-- Modern UI and animations included
-- README file included with title, description, workflow, and team tasks
-- Vercel deployment setup included
-- GitHub Actions auto-deployment workflow included
+# Local Setup
 
-## Run Locally
-
-### 1. Install Node.js
-Install Node.js version 18 or above.
-
-### 2. Open the project folder
-
-```bash
-cd PressureVerse
-```
-
-### 3. Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start development server
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-### 5. Open the local website
-
-```txt
-http://localhost:5173/
-```
-
-## Build for Production
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-The production-ready files will be generated inside the `dist` folder.
-
-## Deploy to Vercel Manually
+### Preview Production Build
 
 ```bash
-npm install
-npm run build
-npx vercel --prod
+npm run preview
 ```
 
-## Auto Deploy to Vercel with GitHub
+---
 
-### Step 1: Create one GitHub repository
-Create a repository with a name like:
+# Deployment Process
 
-```txt
-pressureverse
-```
+1. Develop using React + Vite
+2. Push code to GitHub
+3. Connect repository to Vercel
+4. Configure build settings
+5. Deploy application
+6. Verify production build
+7. Publish live website
 
-### Step 2: Push this project into GitHub
+---
 
-```bash
-git init
-git add .
-git commit -m "Initial PressureVerse vibe coding project"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/pressureverse.git
-git push -u origin main
-```
+# Project Goal
 
-### Step 3: Connect repository to Vercel
+To create an immersive educational platform that helps students understand **Pressure** and its practical applications through **visualization, experimentation, and simulation-based learning**.
 
-1. Open Vercel
-2. Click **Add New Project**
-3. Import the GitHub repository
-4. Framework: **Vite**
-5. Build Command: `npm run build`
-6. Output Directory: `dist`
-7. Deploy
+---
 
-### Step 4: Add GitHub secrets for auto deployment
+# Developed by Team Beyond Pressure (SO7)
 
-In GitHub repository:
+### PressureVerse © 2026
 
-```txt
-Settings → Secrets and variables → Actions → New repository secret
-```
-
-Add these secrets:
-
-```txt
-VERCEL_TOKEN
-VERCEL_ORG_ID
-VERCEL_PROJECT_ID
-```
-
-After this, every push to the `main` branch can automatically deploy to Vercel using the workflow in `.github/workflows/vercel-deploy.yml`.
-
-## Scripts
-
-```bash
-npm run dev          # Start local development server
-npm run build        # Create production build
-npm run preview      # Preview production build locally
-npm run deploy       # Deploy to Vercel production
-npm run deploy:preview # Deploy preview version to Vercel
-```
-
-## Notes
-
-This project is made for educational demonstration and internship/project submission. It focuses on visual learning, interactive physics, clean project structure, and easy deployment.
+**Learn Physics Through Interaction, Visualization & Real-World Applications**
