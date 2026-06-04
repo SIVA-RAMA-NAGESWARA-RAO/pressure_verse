@@ -3,6 +3,9 @@
 ## Title
 **PressureVerse — Pressure and Its Applications in Real Life**
 
+## Team Name
+**Beyond Pressure** (S-07)
+
 ## Description
 PressureVerse is a premium interactive educational website that explains the concept of **Pressure** using a modern glassmorphism user interface, animated backgrounds, live simulations, and a clickable storyboard. The website is fully frontend-based and does not require any backend, login, or database.
 
