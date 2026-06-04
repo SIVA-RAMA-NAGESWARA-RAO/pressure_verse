@@ -1,0 +1,24 @@
+{
+  "name": "pressureverse",
+  "version": "1.0.0",
+  "description": "Premium interactive educational website for Pressure and its Applications.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "deploy": "npx vercel --prod",
+    "deploy:preview": "npx vercel",
+    "vercel:build": "npx vercel build --prod"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
