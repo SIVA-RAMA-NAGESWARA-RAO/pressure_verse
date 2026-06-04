@@ -13,11 +13,12 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
   "engines": {
     "node": ">=18"
   }
