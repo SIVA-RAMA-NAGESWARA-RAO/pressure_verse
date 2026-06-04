@@ -30,9 +30,6 @@ The project combines physics education with interactive technology to make learn
 
 https://pressure-verse.vercel.app
 
-### GitHub Repository
-
-https://github.com/SIVA-RAMA-NAGESWARA-RAO/pressure_verse
 
 ---
 
